@@ -15,7 +15,7 @@ for (i = 0; i < 5; i++) {
   msg.push(datx);
 }
 
-let printermsg = chalkAnimation.karaoke(chalk.blue(msg[idx]), 1.5);
+let printermsg = chalkAnimation.glitch(chalk.green(msg[idx]), 1.5);
 
 setInterval(() => {
   printermsg.replace(msg[idx]);
